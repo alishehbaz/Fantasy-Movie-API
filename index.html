@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <title>Create your own Harry Potter Movie</title>
+
+</head>
+<body>
+  <h3 class="d-flex justify-content-center main-margin">Fantasy Movie Generator</h3>
+<div class="d-flex justify-content-center main-margin">
+  
+    <form action="/movies" method="POST">
+        <div class="form-group" > 
+          <label>Name of the movie</label>
+          <input type="text" class="form-control"  placeholder="Harry Potter and the craze of Hackathons" name="title">
+          <small id="emailHelp" class="form-text text-muted">Be creative or crazy</small>
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <input type="text" class="form-control" placeholder="Something Crazy" name="description">
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Go!</button>
+      </form>
+
+    </div>
+
+    </body>
+</html>
